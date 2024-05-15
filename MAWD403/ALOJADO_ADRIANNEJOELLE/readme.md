@@ -1,1 +1,1 @@
-Memento Vivere.
+Hikikomori Zettai Justice.
