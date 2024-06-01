@@ -1,1 +1,0 @@
-ron jerald tabo
