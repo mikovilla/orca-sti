@@ -1,1 +1,0 @@
-Bayani, Clarence Tee Jhay
