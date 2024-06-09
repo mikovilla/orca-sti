@@ -1,4 +1,3 @@
-//07 eLMS Activity 1 - ARG
 
 class Cat {
     String catType;
