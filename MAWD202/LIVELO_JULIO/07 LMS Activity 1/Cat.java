@@ -1,5 +1,5 @@
 //07 eLMS Activity 1 - ARG
-class Cat {
+public class Cat {
     String catType;
     int cutenessLvl;
 
