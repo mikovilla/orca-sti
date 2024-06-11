@@ -9,6 +9,7 @@ public class DinnerParty extends Party {
         this.foodChoice = foodChoice;
     }
 
+    @Override
     public void showInvitation() {
         System.out.println("Please come to my dinner party!");
     }

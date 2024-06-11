@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class DemoParty {
     public static void main(String[] args) {
         while (true) {
-
             try {
                 Scanner scn = new Scanner(System.in);
                 DinnerParty party1 = new DinnerParty();
@@ -16,7 +15,7 @@ public class DemoParty {
                 party1.showInvitation();
                 break;
             } catch (Exception e) {
-                System.out.println("Wrong Input, Try Again");
+                System.out.println("Wrong Input, Try Again \n");
             }
         }
     }
