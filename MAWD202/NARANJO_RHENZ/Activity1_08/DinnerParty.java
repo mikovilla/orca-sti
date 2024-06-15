@@ -1,4 +1,4 @@
-package MAWD202.NARANJO_RHENZ.Activity1;
+package MAWD202.NARANJO_RHENZ.Activity1_08;
 
 public class DinnerParty extends Party{
     private int foodChoice;
