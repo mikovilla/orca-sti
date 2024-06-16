@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\09 LMS Activity 1 - (ILA).props" />
+</Project>

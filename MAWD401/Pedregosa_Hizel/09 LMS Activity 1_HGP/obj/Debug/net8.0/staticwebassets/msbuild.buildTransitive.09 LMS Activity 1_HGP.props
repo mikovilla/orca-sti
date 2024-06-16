@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\09 LMS Activity 1_HGP.props" />
+</Project>
