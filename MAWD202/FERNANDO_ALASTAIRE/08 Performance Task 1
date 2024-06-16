@@ -1,0 +1,50 @@
+class Car {
+   
+    static String manufacturer = "Toyota";
+    static int numberOfCarsManufactured = 0;
+    
+ 
+    String modelType;
+    String chassisNumber;
+    
+    
+    Car(String modelType, String chassisNumber) {
+        this.modelType = modelType;
+        this.chassisNumber = chassisNumber;
+        numberOfCarsManufactured++;
+    }
+    
+
+    void displayCarDetails() {
+        System.out.println("The car is manufactured by: " + manufacturer);
+        System.out.println("The model type is: " + modelType);
+        System.out.println("The chassis number is: " + chassisNumber);
+    }
+    
+
+    static void displayTotalCarsManufactured() {
+        System.out.println("Number of cars manufactured: " + numberOfCarsManufactured);
+    }
+    
+    public static void main(String[] args) {
+   
+        System.out.println("Manufacturer: " + manufacturer);
+        displayTotalCarsManufactured();
+        System.out.println("Car manufactured");
+        
+     
+        Car car1 = new Car("Camry", "ch1");
+        System.out.println("After instantiating first Car object");
+        car1.displayCarDetails();
+        System.out.println("Car manufactured");
+        
+        
+        Car car2 = new Car("Veloz", "ch2");
+        System.out.println("After instantiating second Car object");
+        car2.displayCarDetails();
+        
+       
+        System.out.println("Total number of cars manufactured");
+        displayTotalCarsManufactured();
+    }
+}
