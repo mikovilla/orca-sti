@@ -1,5 +1,6 @@
 // HomeController.cs
 // This is within the 'Controllers' folder
+// Garcia, Gabriel L.
 
 using Garcia_WebApplication.Models;
 using Microsoft.AspNetCore.Mvc;
