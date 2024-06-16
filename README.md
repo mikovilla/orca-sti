@@ -1,1 +1,0 @@
-Rhed Ashlee B. Latorre
