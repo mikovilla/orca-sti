@@ -1,6 +1,5 @@
 // 07 elms act 1
 public class Cat {
-    // Declare instance variables
     private String catType;
     private int cutenessLvl;
     
