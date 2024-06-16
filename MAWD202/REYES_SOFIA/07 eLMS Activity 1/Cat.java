@@ -19,7 +19,6 @@ public class Cat {
     }
     
     public static void main(String[] args) {
-        // Create a Cat object using default constructor
         Cat defaultCat = new Cat();
         System.out.println("Default Cat: ");
         System.out.println("Cat type: " + defaultCat.catType);
