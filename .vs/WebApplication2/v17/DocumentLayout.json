@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\owner\\source\\repos\\WebApplication2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{345756DC-7F66-4D03-B4B3-21CF5E655D00}|WebApplication2.csproj|c:\\users\\owner\\source\\repos\\webapplication2\\models\\dbentities\\table2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345756DC-7F66-4D03-B4B3-21CF5E655D00}|WebApplication2.csproj|solutionrelative:models\\dbentities\\table2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345756DC-7F66-4D03-B4B3-21CF5E655D00}|WebApplication2.csproj|c:\\users\\owner\\source\\repos\\webapplication2\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345756DC-7F66-4D03-B4B3-21CF5E655D00}|WebApplication2.csproj|solutionrelative:dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345756DC-7F66-4D03-B4B3-21CF5E655D00}|WebApplication2.csproj|c:\\users\\owner\\source\\repos\\webapplication2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{345756DC-7F66-4D03-B4B3-21CF5E655D00}|WebApplication2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345756DC-7F66-4D03-B4B3-21CF5E655D00}|WebApplication2.csproj|c:\\users\\owner\\source\\repos\\webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345756DC-7F66-4D03-B4B3-21CF5E655D00}|WebApplication2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345756DC-7F66-4D03-B4B3-21CF5E655D00}|WebApplication2.csproj|c:\\users\\owner\\source\\repos\\webapplication2\\views\\table2\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{345756DC-7F66-4D03-B4B3-21CF5E655D00}|WebApplication2.csproj|solutionrelative:views\\table2\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345756DC-7F66-4D03-B4B3-21CF5E655D00}|WebApplication2.csproj|c:\\users\\owner\\source\\repos\\webapplication2\\models\\tableviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345756DC-7F66-4D03-B4B3-21CF5E655D00}|WebApplication2.csproj|solutionrelative:models\\tableviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345756DC-7F66-4D03-B4B3-21CF5E655D00}|WebApplication2.csproj|c:\\users\\owner\\source\\repos\\webapplication2\\controllers\\table2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345756DC-7F66-4D03-B4B3-21CF5E655D00}|WebApplication2.csproj|solutionrelative:controllers\\table2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345756DC-7F66-4D03-B4B3-21CF5E655D00}|WebApplication2.csproj|c:\\users\\owner\\source\\repos\\webapplication2\\migrations\\20240615074937_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345756DC-7F66-4D03-B4B3-21CF5E655D00}|WebApplication2.csproj|solutionrelative:migrations\\20240615074937_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication2\\Views\\Table2\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Table2\\Index.cshtml",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication2\\Views\\Table2\\Index.cshtml",
+              "RelativeToolTip": "Views\\Table2\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T08:41:26.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TableViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication2\\Models\\TableViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\TableViewModel.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication2\\Models\\TableViewModel.cs",
+              "RelativeToolTip": "Models\\TableViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T08:15:18.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Table2Controller.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication2\\Controllers\\Table2Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Table2Controller.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication2\\Controllers\\Table2Controller.cs",
+              "RelativeToolTip": "Controllers\\Table2Controller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T08:09:30.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240615074937_initial.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication2\\Migrations\\20240615074937_initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240615074937_initial.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication2\\Migrations\\20240615074937_initial.cs",
+              "RelativeToolTip": "Migrations\\20240615074937_initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T07:49:37.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T07:41:31.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-15T05:16:16.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication2\\DAL\\Product.cs",
+              "RelativeDocumentMoniker": "DAL\\Product.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication2\\DAL\\Product.cs",
+              "RelativeToolTip": "DAL\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T05:13:26.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Table2.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication2\\Models\\DBEntities\\Table2.cs",
+              "RelativeDocumentMoniker": "Models\\DBEntities\\Table2.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication2\\Models\\DBEntities\\Table2.cs",
+              "RelativeToolTip": "Models\\DBEntities\\Table2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T05:04:02.969Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
