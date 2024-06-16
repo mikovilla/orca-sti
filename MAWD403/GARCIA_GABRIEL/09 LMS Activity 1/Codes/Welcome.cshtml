@@ -1,0 +1,20 @@
+// Welcome.cshtml
+// This is within the 'MyMVC' folder of the 'Views' folder
+// Garcia, Gabriel L.
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Welcome";
+}
+<div>
+    <h2>Welcome</h2>
+
+    <ul>
+        @for(int i = 0; i < ViewBag.NumTimes; i++)
+        {
+            <li>@ViewBag.Message</li>
+        }
+    </ul>
+</div>
