@@ -1,0 +1,51 @@
+class Car {
+  public static final String MAKE - "Toyota";
+  public static int numCars - 0;
+  private String chassisNo;
+  private String model;
+
+  public Car(String model) {
+    numCars++;
+    this.chassisNo = "ch" + numCars;
+    this.model = model;
+    System.out.println("Car manufactured");
+  }
+
+  public String getModel() {
+    return model;
+  }
+
+  public void setModel{String model) {
+    this.model = model;
+  }
+
+  public String getChassisNo() {
+    return chassisNo;
+  }
+
+  public void set ChassisNo(String chassisNo) {
+  this.chassisNo = chassisNo;
+  }
+
+  @Override
+  public String toString() {
+  return "The Car is manufactured by: " + MAKE +
+          "\nThe model type is " + model +
+          "\nThe chassis number is " + chassisNo;
+  }
+}
+
+  public class TestCar {
+  public static void main(String[] args) {
+    System.out.println("Manufacturer: " +Car.MAKE);
+    System.out.println("Number of cars manufactured: " + car.numCars);
+
+  Car car1 = new Car("Camry");
+  System.out.println(car1);
+
+  Car car 2= new Car("Veloz");
+  System.out.println(car2);
+
+  System.out.println("Number of cars manufactured: " + Car.numCars);
+  }
+}
