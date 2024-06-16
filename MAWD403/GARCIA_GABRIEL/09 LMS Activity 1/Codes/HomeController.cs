@@ -1,3 +1,6 @@
+// HomeController.cs
+// This is within the 'Controllers' folder
+
 using Garcia_WebApplication.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
