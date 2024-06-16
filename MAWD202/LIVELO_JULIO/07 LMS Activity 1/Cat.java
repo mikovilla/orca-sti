@@ -1,6 +1,6 @@
 public class Cat {
-    String catType;
-    int cutenessLvl;
+    private String catType;
+    private int cutenessLvl;
 
     public Cat() {
         catType = "Unknown";

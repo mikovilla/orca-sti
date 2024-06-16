@@ -2,8 +2,8 @@
 public class Car {
     public static final String MAKE = "Toyota";
     public static int numCars = 0;
-    public String chassisNo;
-    public String model;
+    private String chassisNo;
+    private String model;
 
     public Car(String model) {
         numCars++;
