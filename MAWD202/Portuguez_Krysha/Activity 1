@@ -1,0 +1,34 @@
+// Party class
+class Party {
+    private int numGuests;
+
+    public int getNumGuests() {
+        return numGuests;
+    }
+
+    public void setNumGuests(int num) {
+        numGuests = num;
+    }
+
+    public void showInvitation() {
+        System.out.println("Please come to my party!");
+    }
+}
+
+// DinnerParty class extending Party class
+class DinnerParty extends Party {
+    private int foodChoice;
+
+    public int getFoodChoice() {
+        return foodChoice;
+    }
+
+    public void setFoodChoice(int choice) {
+        foodChoice = choice;
+    }
+
+    @Override
+    public void showInvitation() {
+        System.out.println("Please come to my dinner party!");
+    }
+}
