@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\10 Performance Task 1.props" />
-</Project>
