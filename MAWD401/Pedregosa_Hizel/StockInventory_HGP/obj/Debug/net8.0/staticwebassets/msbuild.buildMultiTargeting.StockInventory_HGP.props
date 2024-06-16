@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\StockInventory_HGP.props" />
+</Project>
