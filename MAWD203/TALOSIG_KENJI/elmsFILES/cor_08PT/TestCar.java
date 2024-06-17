@@ -1,49 +1,61 @@
-package cor_08PT;
+// 08 Performance Task 1 - ARG
+package cor_08PT
+
+//CODE SUBMITTED BY TALOSIG KENJI DWAYNE, WITH PERMISSION FROM PACHO GIROM KENJI
 
 public class TestCar {
-    public static void main(String [] args) {
-        System.out.println("Manufacturer: " + Car.MAKE);
-        System.out.println("Number of cars manufactured: " + Car.numCars);
+    public static void main(String[] args) {
+        printer print = new printer();
+        
+        print.sop("Manufacturer: " + Car.MAKE);
+        print.sop("Number of cars manufactured: " + Car.numCars);
 
         Car car1 = new Car("Camry");
         System.out.println(car1);
-        
-        Car car2 = new Car("Velos");
-        System.out.println(car2);
-        
 
-        System.out.println("Number of cars manufactured: " + Car.numCars);
+        Car car2 = new Car("Veloz");
+        System.out.println(car2);
+
+
+        print.sop("\nNumber of cars manufactured: " + Car.numCars);
     }
 }
+
+// adding this code for me not to write System.out.println again and again.
+class printer {
+    public void sop(String valparam) {
+        System.out.println(valparam);
+    }
+}
+
 
 class Car {
     public static final String MAKE = "Toyota";
     public static int numCars = 0;
-    public String chassisNo, model;
 
-    public Car(String model0) {
+    public String chassisNo;
+    public String model;
+
+    public Car(String model) {
         numCars++;
-        chassisNo = "ch" + numCars;
-        model = model0;
-        System.out.println("Car Manufactured");
+        this.chassisNo = "ch" + numCars;
+        this.model = model;
+        System.out.println("Car manufactured");
     }
 
-    public void setModel(String model1) {
-        model = model1;
+    public void setModel(String model){
+        this.model = model;
     }
-
-    public void setChassisNo(String chassisNo0) {
-        chassisNo = chassisNo0;
+    public void setChassisNo(String chassisNo){
+        this.chassisNo = chassisNo;
     }
-
-    public String getModel() {
-        return model;
+    public String getModel(){
+        return this.model;
     }
-
-    public String getChassisNo() {
-        return chassisNo;
+    public String getChassisNo(){
+        return this.chassisNo;
     }
-
+    
     public String toString() {
         return  "\nThe car is manufactured by: " + MAKE +
                 "\nThe model type is " + model +
