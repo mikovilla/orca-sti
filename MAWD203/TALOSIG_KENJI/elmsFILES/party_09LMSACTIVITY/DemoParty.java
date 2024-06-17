@@ -16,14 +16,12 @@ public class DemoParty {
         System.out.println("Menu option " + dinnerParty.getFoodChoice() + " will be served.");
 
         dinnerParty.ShowInvitation();
-        scan.close();
     }
     
 }
 
 class DinnerParty extends Party {
     private int foodChoice;
-
     public void setFoodChoice(int choice) {
         foodChoice = choice;
     }
