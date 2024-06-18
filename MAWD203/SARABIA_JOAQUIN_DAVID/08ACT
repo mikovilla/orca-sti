@@ -1,0 +1,75 @@
+public class TestCar{
+	public static void main(String[]args) {
+		
+		System.out.println("Manufacturer: " + Car.MAKE);
+		
+		System.out.println("\n");
+		
+		//After instantiating first Car
+		Car c1 = new Car("Skyline");
+		System.out.println(c1.toString());
+		
+		System.out.println("\n");
+		
+	    //After instantiating second Car
+		Car c2 = new Car("Veloz");
+		System.out.println(c2.toString());
+		
+		System.out.println("\n");
+		
+		// # of cars manufactured
+		System.out.println("Total # of cars Manufactured: " + Car.numCars);
+		
+		
+	}
+
+}
+
+//IN SEPERATE FILE
+
+public class Car {
+
+	public static final String MAKE = "Nissan";
+	public static int numCars = 0;
+	
+	String chassisNo;
+    String model;
+	
+	Car(String model){
+		
+		numCars++;
+		chassisNo = "ch" + numCars;
+		this.model = model;
+		System.out.println("Car Manufactured\n"
+				+ "");
+	}
+	
+	
+	//set and get methods
+	
+	public void setModel(String model) {
+		this.model = model;
+	}
+	
+    public String getModel() {
+		return model;
+	}
+	
+    public void setChassisNo(String chassisNo) {
+		this.chassisNo = chassisNo;
+	}
+    public String getChassisNo() {
+		return chassisNo;
+	}
+    
+    
+    
+    //return values of objects
+    public String toString(){
+    	return "This car is manufactured by: " + MAKE +"\nThe model type is: " + model + "\nThe chassis # is: ch" + numCars; 
+   
+    }
+    
+    
+   
+}
