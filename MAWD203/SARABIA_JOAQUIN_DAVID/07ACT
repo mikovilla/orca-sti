@@ -1,0 +1,37 @@
+public class Cat {
+
+	String catType;
+	int cutenessLvl;
+	
+	public Cat(){
+			
+		catType = "Unknown";
+		cutenessLvl = 3;
+		
+	}
+	
+	public Cat(String type, int lvl){
+		
+		catType = type;
+		cutenessLvl = lvl;
+	}
+	
+	
+	public int getCuteness() {
+		return cutenessLvl;
+	}
+	
+	public String getType() {
+		return catType;
+	}
+	
+	
+	public static void main(String[]args) {
+		
+		Cat c1 = new Cat("Humungus Cat" , 10);
+		
+		System.out.println(c1.getCuteness());
+		System.out.println(c1.getType());
+	}
+	
+}
