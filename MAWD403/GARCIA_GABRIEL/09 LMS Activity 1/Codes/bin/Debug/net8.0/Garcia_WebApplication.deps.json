@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Garcia_WebApplication/1.0.0": {
+        "runtime": {
+          "Garcia_WebApplication.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Garcia_WebApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
