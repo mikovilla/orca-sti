@@ -1,0 +1,110 @@
+﻿@model List<StockInventory_HGP.Models.ProductViewModel>
+@using System.Linq
+
+@{
+    ViewData["Title"] = "Product Inventory";
+}
+
+<head>
+    <!-- Add the link to the Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    /* Softer pink theme colors */
+    :root {
+        --pink-light: #f8bbd0; /* Light Pink */
+        --pink-dark: #c2185b; /* Dark Pink */
+        --pink-accent: #e91e63; /* Accent Pink */
+    }
+
+    /* Apply pink theme to the table */
+    .table {
+        background-color: var(--pink-light);
+        color: var(--pink-dark);
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: var(--pink-accent);
+        color: white;
+    }
+
+    /* Style the buttons */
+    .btn-primary {
+        background-color: var(--pink-dark);
+        border-color: var(--pink-accent);
+        color: white;
+    }
+
+        .btn-primary:hover {
+            background-color: var(--pink-accent);
+            border-color: var(--pink-dark);
+        }
+
+    .btn-danger {
+        background-color: #d81b60; /* Brighter Pink for Danger Button */
+        border-color: #c2185b; /* Dark Pink Border for Danger Button */
+        color: white;
+    }
+
+        .btn-danger:hover {
+            background-color: #c2185b;
+            border-color: #ad1457; /* Even Darker Pink for Hover State */
+        }
+
+    /* Additional styling for form and other elements */
+    form {
+        padding: 1rem;
+    }
+
+    hr {
+        border-color: var(--pink-dark);
+    }
+
+    /* Add the cute font style */
+    body, button, input, textarea {
+        font-family: 'Indie Flower', cursive;
+    }
+</style>
+
+<hr />
+<form>
+    <button asp-action="Create" asp-controller="Product" class="btn btn-primary mb-3">Create Button</button>
+    <table class="table table-responsive table-hover table-bordered">
+        <thead>
+            <tr class="table-active">
+                <th>ID</th>
+                <th>Product Name</th>
+                <th>Brand</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (var product in Model)
+                {
+                    <tr>
+                        <td>@product.ID</td>
+                        <td>@product.Name</td>
+                        <td>@product.Brand</td>
+                        <td>@product.Price</td>
+                        <td>
+                            <div class="btn-group btn-group-sm">
+                                <a asp-controller="Product" asp-action="Edit" asp-route-id="@product.ID" class="btn btn-primary">Edit</a>
+                                <a asp-controller="Product" asp-action="Delete" asp-route-id="@product.ID" class="btn btn-danger">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="4">No Product Available at this moment!</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>
+

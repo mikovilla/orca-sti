@@ -1,0 +1,46 @@
+import java.util.Scanner; 
+
+public class Cat {
+    private String catType;
+    private int cutenessLvl; 
+
+    public Cat() {
+        catType = "Unknown";
+        cutenessLvl = 3;
+    } 
+
+    public Cat(String type, int lvl) {
+        catType = type;
+        cutenessLvl = lvl;
+    } 
+
+    public int getCuteness() {
+        return cutenessLvl;
+    } 
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); 
+
+        System.out.println("Welcome to the Cat Creation Program!");
+        System.out.println("Let's create a cat."); 
+
+        System.out.println("Enter the type of cat:");
+        String type = scanner.nextLine(); 
+
+        System.out.println("Enter the cuteness level of the cat (1-10):");
+        int level = scanner.nextInt();
+        if (level < 1 || level > 10) {
+            System.out.println("Cuteness level must be between 1 and 10. Setting it to default (3).");
+            level = 3;
+        } 
+
+        Cat cat = new Cat(type, level); 
+
+        System.out.println("\nCat created successfully!");
+        System.out.println("Cat Type: " + cat.catType);
+        System.out.println("Cuteness Level: " + cat.getCuteness()); 
+
+        scanner.close();
+    }
+}
+
