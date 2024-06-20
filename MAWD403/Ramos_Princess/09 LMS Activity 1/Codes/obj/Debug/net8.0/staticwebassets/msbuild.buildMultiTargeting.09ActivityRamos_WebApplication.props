@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\09ActivityRamos_WebApplication.props" />
+</Project>
