@@ -1,0 +1,83 @@
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class DemoParty {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Party party = new Party();
+        DinnerParty dinnerParty = new DinnerParty();
+
+        System.out.print("Enter the number of guests for the dinner party: ");
+        boolean validInput = false;
+        while (!validInput) {
+            try {
+                int numGuests = scanner.nextInt();
+                party.setNumGuests(numGuests);
+                validInput = true;
+            } catch (InputMismatchException e) {
+                System.out.println("Invalid input. Please enter a valid number.");
+                scanner.nextLine(); 
+                System.out.print("Enter the number of guests for the dinner party: ");
+            }
+        }
+
+        System.out.print("Enter the menu option (1 for chicken or 2 for beef): ");
+        validInput = false;
+        while (!validInput) {
+            try {
+                int foodChoice = scanner.nextInt();
+                dinnerParty.setFoodChoice(foodChoice);
+                validInput = true;
+            } catch (InputMismatchException e) {
+                System.out.println("Invalid input. Please enter a valid number.");
+                scanner.nextLine(); 
+                System.out.print("Enter the menu option (1 for chicken or 2 for beef): ");
+            }
+        }
+
+        System.out.println("The dinner party has " + party.getNumGuests() + " guests.");
+
+        if (dinnerParty.getFoodChoice() == 1) {
+            System.out.println("Menu option 1 will be served.");
+        } else if (dinnerParty.getFoodChoice() == 2) {
+            System.out.println("Menu option 2 will be served.");
+        }
+
+        dinnerParty.showInvitation();
+
+        scanner.close(); 
+    }
+}
+
+class Party {
+    private int numGuests;
+
+    public int getNumGuests() {
+        return numGuests;
+    }
+
+    public void setNumGuests(int num) {
+        this.numGuests = num;
+    }
+
+    public void showInvitation() {
+        System.out.println("Please come to my party!");
+    }
+}
+
+class DinnerParty extends Party {
+    private int foodChoice;
+
+    public int getFoodChoice() {
+        return foodChoice;
+    }
+
+    public void setFoodChoice(int choice) {
+        this.foodChoice = choice;
+    }
+
+    
+    public void showInvitation() {
+        System.out.println("Please come to my dinner party!");
+    }
+}
