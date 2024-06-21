@@ -1,0 +1,27 @@
+public class Cat {
+    
+    String catType;
+    int cutenessLvl;
+    
+    public Cat() {
+        catType = "Unknown";
+        cutenessLvl = 3;
+    }
+    
+    public Cat(String type, int lvl) {
+        catType = type;
+        cutenessLvl = lvl;
+    }
+    
+    public int getCuteness() {
+        return cutenessLvl;
+    }
+    
+    public static void main(String[] args) {
+        Cat cat1 = new Cat();
+        Cat cat2 = new Cat("Siamese", 5);
+
+        System.out.println("Cat1's cuteness level: " + cat1.getCuteness()); // Should print 3
+        System.out.println("Cat2's cuteness level: " + cat2.getCuteness()); // Should print 5
+    }
+}
