@@ -1,0 +1,30 @@
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\bin\Debug\net8.0\appsettings.json
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\bin\Debug\net8.0\09 LMS Activity 1 - (ILA).staticwebassets.runtime.json
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\bin\Debug\net8.0\09 LMS Activity 1 - (ILA).exe
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\bin\Debug\net8.0\09 LMS Activity 1 - (ILA).deps.json
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\bin\Debug\net8.0\09 LMS Activity 1 - (ILA).runtimeconfig.json
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\bin\Debug\net8.0\09 LMS Activity 1 - (ILA).dll
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\bin\Debug\net8.0\09 LMS Activity 1 - (ILA).pdb
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\09 LMS Activity 1 - (ILA).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\09 LMS Activity 1 - (ILA).AssemblyInfoInputs.cache
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\09 LMS Activity 1 - (ILA).AssemblyInfo.cs
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\09 LMS Activity 1 - (ILA).csproj.CoreCompileInputs.cache
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\09 LMS Activity 1 - (ILA).MvcApplicationPartsAssemblyInfo.cache
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\09 LMS Activity 1 - (ILA).RazorAssemblyInfo.cache
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\09 LMS Activity 1 - (ILA).RazorAssemblyInfo.cs
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\staticwebassets\msbuild.09 LMS Activity 1 - (ILA).Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\staticwebassets\msbuild.build.09 LMS Activity 1 - (ILA).props
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.09 LMS Activity 1 - (ILA).props
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.09 LMS Activity 1 - (ILA).props
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\scopedcss\bundle\09 LMS Activity 1 - (ILA).styles.css
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\scopedcss\projectbundle\09 LMS Activity 1 - (ILA).bundle.scp.css
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\09 LMS Activity 1 - (ILA).dll
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\refint\09 LMS Activity 1 - (ILA).dll
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\09 LMS Activity 1 - (ILA).pdb
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\09 LMS Activity 1 - (ILA).genruntimeconfig.cache
+C:\Users\IAN LLOYD\source\repos\09 LMS Activity 1 - (ILA)\09 LMS Activity 1 - (ILA)\obj\Debug\net8.0\ref\09 LMS Activity 1 - (ILA).dll
