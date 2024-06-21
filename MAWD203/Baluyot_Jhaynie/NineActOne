@@ -1,0 +1,88 @@
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class NineActOne {
+    public static void main(String[] args) {
+        try (Scanner scanner = new Scanner(System.in)){
+  
+        System.out.println("Please enter total number of guests: ");
+        int numGuests = scanner.nextInt();
+        
+        System.out.println("Choose the Menu Options, type 1 for chicken, 2 for beef: ");
+        int Menu = scanner.nextInt();
+        
+        DemoParty demo = new DemoParty(numGuests, Menu);
+        demo.displayDetail();
+        } catch (InputMismatchException e) {
+            System.out.println("You do not posses a table for this event, " + e.getMessage() + " answer.");
+        }
+                
+    }
+    
+}
+
+public class Party {
+    private int numGuest;
+    
+    public Party (int numGuest){
+        this.numGuest = numGuest;
+    }
+    
+    public int getNumGuest() {
+        return numGuest;
+    }
+    
+    public void setNumGuest(int num){
+        numGuest = num;
+    }
+    
+    public void showInvitation(){
+        System.out.println("Please come to my party!");
+    }
+}
+
+public class DinnerParty extends Party {
+    private int foodChoice;
+            
+        public DinnerParty(int numGuests, int foodChoice) {
+            super(numGuests);
+            this.foodChoice = foodChoice;
+        }
+        
+        public int getFoodChoice() {
+            return foodChoice;
+        }
+        
+        public void setFoodChoice(int choice) {
+            foodChoice = choice;
+        }
+        
+        @Override
+        public void showInvitation() {
+            System.out.println("Please come to my dinner party!");
+        }
+}
+
+public class DemoParty extends Party {
+    private int Menu;
+    
+    public DemoParty(int numGuests, int menuOption) {
+        super(numGuests);
+        this.Menu = menuOption;
+    }
+    public void displayDetail() {
+        System.out.println("Total number of guests: " + getNumGuest());
+        
+        String menuDescription;
+        if (Menu == 1) {
+            menuDescription = "chicken, is to ";
+        } else if (Menu == 2) {
+            menuDescription = "beef, is to ";
+        } else {
+            menuDescription = "Nothing... will ";
+        }
+        
+        System.out.println("Menu chosen is: " + Menu + " " + menuDescription + " be served");
+        showInvitation();
+    }
+}
