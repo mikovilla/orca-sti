@@ -1,0 +1,45 @@
+﻿@model List<_10PerformanceTask_Adlawan.Models.ProductViewModel>
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h3>@ViewData["Title"]</h3>
+<hr />
+<form>
+<table class="table table-responsive table-hover">
+    <thead>
+        <tr class="table-active">
+            <th>ProductID</th>
+            <th>ProductName</th>
+            <th>Brand</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+        <tbody>
+            @if(Model != null && Model.Any())
+            {
+                @foreach(var product in Model)
+                {
+                    <tr>
+                        <td>@product.ProductID</td>
+                        <td>@product.ProductName</td>
+                        <td>@product.Brand</td>
+                        <td>@product.Price</td>                     
+                    </tr>
+            }
+        }
+            else
+            {
+                <tr>
+                    <td colspan="4">
+                        <div>
+                            No Products Listed!
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    
+</table>
+</form>

@@ -1,0 +1,105 @@
+﻿@model List<Product_Inventory_ILA.Models.ProductViewModel>
+@using System.Linq
+
+@{
+    ViewData["Title"] = "Product Inventory";
+}
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    :root {
+        --yellow-light: #fff9c4;
+        --yellow-dark: #fdd835;
+        --yellow-accent: #ffeb3b;
+    }
+
+    .table {
+        background-color: var(--yellow-light);
+        color: var(--yellow-dark);
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: var(--yellow-accent);
+        color: black;
+    }
+
+    /* Style the buttons */
+    .btn-primary {
+        background-color: var(--yellow-dark);
+        border-color: var(--yellow-accent);
+        color: black;
+    }
+
+        .btn-primary:hover {
+            background-color: var(--yellow-accent);
+            border-color: var(--yellow-dark);
+        }
+
+    .btn-danger {
+        background-color: #ffb300;
+        border-color: #fdd835;
+        color: black;
+    }
+
+        .btn-danger:hover {
+            background-color: #fdd835;
+            border-color: #ffc107;
+        }
+
+    form {
+        padding: 1rem;
+    }
+
+    hr {
+        border-color: var(--yellow-dark);
+    }
+
+    body, button, input, textarea {
+        font-family: 'Handlee', cursive;
+    }
+</style>
+
+<hr />
+<form>
+    <button asp-action="Create" asp-controller="Product" class="btn btn-primary mb-3">Create Product</button>
+    <table class="table table-responsive table-hover table-bordered">
+        <thead>
+            <tr class="table-active">
+                <th>ID</th>
+                <th>Product Name</th>
+                <th>Brand</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (var product in Model)
+                {
+                    <tr>
+                        <td>@product.ID</td>
+                        <td>@product.productName</td>
+                        <td>@product.Brand</td>
+                        <td>@product.Price</td>
+                        <td>
+                            <div class="btn-group btn-group-sm">
+                                <a asp-controller="Product" asp-action="Edit" asp-route-id="@product.ID" class="btn btn-primary">Edit</a>
+                                <a asp-controller="Product" asp-action="Delete" asp-route-id="@product.ID" class="btn btn-danger">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="4">No Product Available at this moment!</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>
+
