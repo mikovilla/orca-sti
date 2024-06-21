@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+class Party {
+    private int numGuests;
+
+    public Party(int numGuests) {
+        this.numGuests = numGuests;
+    }
+
+    public int getNumGuests() {
+        return numGuests;
+    }
+
+    public void showInvitation() {
+        System.out.println("Please come to my party!");
+    }
+}
+
+class DinnerParty extends Party {
+    private int foodChoice;
+
+    public DinnerParty(int numGuests, int foodChoice) {
+        super(numGuests);
+        this.foodChoice = foodChoice;
+    }
+
+    public int getFoodChoice() {
+        return foodChoice;
+    }
+
+    public void showInvitation() {
+        System.out.println("Please come to my dinner party!");
+    }
+}
+
+public class PartyDemo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the number of guests for the dinner party: ");
+        int guests = scanner.nextInt();
+
+        System.out.print("\nEnter the menu option (1 for chicken or 2 for beef): ");
+        int menuOption = scanner.nextInt();
+
+        scanner.close();
+
+        DinnerParty dinnerParty = new DinnerParty(guests, menuOption);
+
+        System.out.println("\nThe dinner party has " + dinnerParty.getNumGuests() + " guests.");
+        System.out.println("Menu option " + dinnerParty.getFoodChoice() + " will be served.");
+
+        dinnerParty.showInvitation();
+    }
+}
