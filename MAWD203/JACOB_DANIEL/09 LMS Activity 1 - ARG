@@ -1,0 +1,86 @@
+// Step 1: Create three (2) classes named Party, DinnerParty, and DemoParty.
+public class Party 
+{
+    // Step 2: In the Party class, declare a private variable of int type named numGuests. 
+    private int numGuests;
+
+    // Step 3: Create a getter method named getNumGuests() that will allow you to retrieve the value of numGuests.
+    public int getNumGuests() 
+    {
+        return numGuests;
+    }
+
+    // Step 4: Create a setter method named setNumGuests() with an int parameter named num. In this method, assign num to numGuests.
+    public void setNumGuests(int num) 
+    {
+        this.numGuests = num;
+    }
+
+    // Step 5: Create a method named showInvitation() that prints "Please come to my party!".
+    public void showInvitation() {
+        System.out.println("Please come to my party!");
+    }
+}
+
+
+// Step 1: Create three (2) classes named Party, DinnerParty, and DemoParty.
+// Step 6: Your DinnerParty class should extend the Party class. In the DinnerParty class, declare a private variable of int type named foodChoice. 
+public class DinnerParty extends Party 
+{
+    private int foodChoice;
+
+    // Step 7: Create a getter method named getFoodChoice() that will allow you to retrieve the value of foodChoice.
+    public int getFoodChoice() 
+    {
+        return foodChoice;
+    }
+
+    // Step 8: Create a setter method named setFoodChoice() with an int parameter named choice. In this method, assign choice to foodChoice.
+    public void setFoodChoice(int choice) 
+    {
+        this.foodChoice = choice;
+    }
+
+    // Step 9: Create a showInvitation() method that overrides the method in the parent class. This method shall print "Please come to my dinner party!".
+    public void showInvitation() {
+        System.out.println("Please come to my dinner party!");
+    }
+}
+
+
+
+import java.util.Scanner;
+// Step 1: Create three (2) classes named Party, DinnerParty, and DemoParty.
+// Step 10: Code the DemoParty class to produce an output similar to the example below.
+public class DemoParty 
+{
+    public static void main(String[] args) 
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the number of guests for the dinner party: ");
+        int guests = scanner.nextInt();
+
+        System.out.print("\nEnter the menu option (1 for chicken or 2 for beef): ");
+        int menuOption = scanner.nextInt();
+
+        DinnerParty dinnerParty = new DinnerParty();
+        dinnerParty.setNumGuests(guests);
+        dinnerParty.setFoodChoice(menuOption);
+
+        System.out.println("\nThe dinner party has " + dinnerParty.getNumGuests() + " guests.");
+
+        if (dinnerParty.getFoodChoice() == 1) 
+        {
+            System.out.println("Menu option 1 (chicken) will be served.");
+        } else if (dinnerParty.getFoodChoice() == 2) 
+        {
+            System.out.println("Menu option 2 (beef) will be served.");
+        } else 
+        {
+            System.out.println("Invalid menu option.");
+        }
+
+        dinnerParty.showInvitation();
+        scanner.close();
+    }
+}
