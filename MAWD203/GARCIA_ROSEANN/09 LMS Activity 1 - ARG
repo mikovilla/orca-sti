@@ -1,9 +1,12 @@
 import java.util.Scanner;
 class Party {
   private int numGuests;
-
   public Party(int numGuests) {
     this.numGuests = numGuests;
+  }
+
+  public int NumGuests() {
+    return NumGuests;
   }
 
   public void showInvitation() {
@@ -13,9 +16,7 @@ class Party {
 
 class DinnerParty extends Party {
   private int foodChoice;
-
-  public DinnerParty(int numGuests, int foodChoice) {
-    super(numGuests);
+  public DinnerParty(int foodChoice) {
     this.foodChoice = foodChoice;
   }
 
@@ -30,19 +31,21 @@ class DinnerParty extends Party {
 
   public class DemoParty {
     public static void main(String[] args) {
-      Scanner rose =  new Scanner (System.out.in);
+      Scanner rose =  new Scanner (System.in);
+      DinnerParty dinnerParty = new DinnerParty(guests, menuOption);
 
-      System.out.println("Enter the number of guiests for the dinner party:");
+      System.out.println("Enter the number of guests for the dinner party:");
       int guests = rose.nextInt();
+      dinnerPartry.setNumGuests(guests);
 
       System.out.println("Enter the menu oprtion:(1 chicken or 2 beef):");
+      int menuOption = rose.nextLine();
+      dinnerParty.setFoodChoice(menuOption);
+
 
       
 
-
-      DinnerParty dinnerParty = new DinnerParty(guests, menuOption);
-
-      System.out.println(" The dinner party has " + dinnerParty.getNumGuests() + guests.");
+      System.out.println(" The dinner party has " + dinnerParty.getNumGuests() + " guests.");
 
       System.out.println("Menu option" + dinnerParty.getFoodChoice() + " will be served.");
 
