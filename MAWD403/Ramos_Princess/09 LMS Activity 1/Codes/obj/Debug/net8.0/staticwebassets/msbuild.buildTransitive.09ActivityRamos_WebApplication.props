@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\09ActivityRamos_WebApplication.props" />
-</Project>
