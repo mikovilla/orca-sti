@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PT10-Maverick Nimo.props" />
+</Project>
