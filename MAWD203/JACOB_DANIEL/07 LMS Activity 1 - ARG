@@ -1,0 +1,39 @@
+//Step 1: Create a class named Cat. Declare two (2) empty instance variables: catType (String) and cutenessLvl (int).
+public class Cat
+{
+  private String catType;
+  private int cutenessLvl;
+
+  //Step 2: Create a public constructor without parameters. Inside the constructor, set the values of catType and cutenessLvl to "Unknown" and 3, respectively.
+  public Cat()
+  {
+    this.catType = "Unknown";
+    this.cutenessLvl = 3;
+  }
+
+  //Step 3: Add another public constructor with two (2) parameters: type (String) and lvl (int). Inside the constructor, assign type to catType and level to cutenessLvl.
+  public Cat(String type, int lvl)
+  {
+    this.catType = type;
+    this.cutenessLvl = lvl;
+  }
+
+  //Step 4: Create an int type of method named getCuteness(). This method shall return the cat's cuteness level.
+  public int getCuteness()
+  {
+    return this.cutenessLvl;
+  }
+
+
+  public void displayInfo()
+  {
+    System.out.println("Cat type: " + this.catType + ", Cuteness level: " + this.getCuteness());
+  }
+  public static void main(String[] args)
+  {
+    Cat defaultCat = new Cat();
+    defaultCat.displayInfo();
+    Cat specificCat = new Cat("Japanese Bobtail", 8);
+    specificCat.displayInfo();
+  }
+}
