@@ -1,0 +1,25 @@
+public class Cat {
+private String catType;
+private int cutenessLvl;
+
+public Cat() {
+this.catType = "Unknown";
+this.cutenessLvl = 3;
+ }
+public Cat(String type, int 1v1) {
+this.catType = type;
+this.cutenessLvl = 1v1;
+ }
+public int getCuteness() {
+return cutenessLvl;
+ }
+public static void main (String[] args) {
+Cat unknownCat = new Cat);
+System.out.printin("Unknown Cat Type: " + unknownCat.catType);
+System.out.println("Unknown Cat Cuteness Level: " + unknownCat.getCuteness());
+
+Cat cuteCat = new Cat("Persian", 8);
+System.out.printin("Cute Cat Type: " + cuteCat.catType);
+System.out.printin("Cute Cat Cuteness Level: " + cuteCat.getCuteness());
+ }
+}

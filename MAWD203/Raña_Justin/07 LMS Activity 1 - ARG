@@ -1,0 +1,47 @@
+public class Cat {
+    private String catType;
+    private int cutenessLvl;
+
+    // Constructor without parameter 
+    public Cat() {
+        this.catType = "Unknown";
+        this.cutenessLvl = 5;
+    }
+
+    // Constructor with parameters
+    public Cat(String type, int lvl) {
+        this.catType = type;
+        this.cutenessLvl = lvl;
+    }
+
+    //cuteness level
+    public int getCuteness() {
+        return cutenessLvl;
+    }
+
+    //Getter for catType 
+    public String getCatType() {
+        return catType;
+    }
+
+    //Setter for cutenessLvl 
+    public void setCutenessLvl(int cutenessLvl) {
+        this.cutenessLvl = cutenessLvl;
+    }
+
+    // Setter for catType
+    public void setCatType(String catType) {
+        this.catType = catType;
+    }
+
+    public static void main(String[] args) {
+        
+        Cat unknownCat = new Cat();
+        System.out.println("Type: " + unknownCat.getCatType()); 
+        System.out.println("Cuteness Level: " + unknownCat.getCuteness()); 
+        
+        Cat knownCat = new Cat("Bobtail", 5);
+        System.out.println("Type: " + knownCat.getCatType()); 
+        System.out.println("Cuteness Level: " + knownCat.getCuteness()); 
+    }
+}

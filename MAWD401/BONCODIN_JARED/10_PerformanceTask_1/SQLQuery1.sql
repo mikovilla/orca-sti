@@ -1,0 +1,10 @@
+insert into Products (Name,Brand, Category, Price, Description, CreatedAt)
+Values
+('Apple', 'Iphone', 'Cellphone', 59000, 'The iPhone is a series of smartphones made by Apple Inc since 2007. It is a mobile phone, meaning that it makes calls and sends text messages without wires. There are many types of iPhones. The iPhone can access the Internet as well, either using a cellular network or over Wi-Fi.', GETDATE()),
+('Galaxy', 'Samsung', 'Cellphone', 21000, 'Samsung, South Korean company that is one of the worlds largest producers of electronic devices. Samsung specializes in the production of a wide variety of consumer and industry electronics, including appliances, digital media devices, semiconductors, memory chips, and integrated systems.',GETDATE()),
+('Realme', 'RealMe', 'Cellphone', 156000, 'Realme is a Chinese smartphone company established on May 4, 2018 (National Youth Day of China), by former Oppo vice-president and head of overseas business department, Sky Li. The company was initially set up as a sub-brand of BKK Electronics Oppo Mobiles but later incorporated as an independent entity.', GETDATE()),
+('Vivo', 'Vivo', 'Cellphone', 12300, 'vivo is a global smartphone manufacturer with production facilities and R&D centers in China (Dongguan, Shenzhen, Nanjing, Beijing, Hangzhou and Chongqing), India, Indonesia and the United States (San Diego).',GETDATE() ),
+('Hot', 'Infinix', 'Cellphone', 11950, 'Founded in 2013 with the commitment of building stylishly designed cutting-edge technology with a focus on smart devices built to deliver fantastic smartphone experiences. Infinix products are made from the ground up with next-level technology & exceptional design at the core of every creation.', GETDATE()),
+('Xiaomi', 'Redmi', 'Cellphone', 5000, 'Redmi is a subsidiary company owned by the Chinese electronics company Xiaomi. It was first announced in July 2013 as a budget smartphone line,and became a separate sub-brand of Xiaomi in 2019 with entry-level and mid-range devices, while Xiaomi itself produces upper-range and flagship Xiaomi (formerly Mi) phones.',GETDATE());
+
+Select * from Products

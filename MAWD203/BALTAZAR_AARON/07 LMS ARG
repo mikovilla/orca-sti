@@ -1,0 +1,35 @@
+public class Cat {
+    // Declare instance variables
+    private String catType;
+    private int cutenessLvl;
+
+    // Constructor without parameters
+    public Cat() {
+        this.catType = "Unknown";
+        this.cutenessLvl = 3;
+    }
+
+    // Constructor with parameters
+    public Cat(String type, int lvl) {
+        this.catType = type;
+        this.cutenessLvl = lvl;
+    }
+
+    // Method to get cuteness level
+    public int getCuteness() {
+        return this.cutenessLvl;
+    }
+
+    // Main method for testing
+    public static void main(String[] args) {
+        // Testing default constructor
+        Cat defaultCat = new Cat();
+        System.out.println("Default Cat Type: " + defaultCat.catType);
+        System.out.println("Default Cat Cuteness Level: " + defaultCat.getCuteness());
+
+        // Testing parameterized constructor
+        Cat specificCat = new Cat("Siamese", 5);
+        System.out.println("Specific Cat Type: " + specificCat.catType);
+        System.out.println("Specific Cat Cuteness Level: " + specificCat.getCuteness());
+    }
+}
