@@ -1,0 +1,30 @@
+public class Cat {
+    public String catType;
+    public int cutenessLvl;
+    
+    public Cat(){
+        this.catType = "unknown";
+        this.cutenessLvl = 3;
+    }
+
+    public Cat(String type, int lvl){
+        this.catType = type;
+        this.cutenessLvl = lvl;
+    }
+    
+    public int getCuteness(){
+        return cutenessLvl;
+    }
+    
+    public String getCatType(){
+        return catType;
+    }
+    
+    public static void main (String[] args){
+        Cat newcat = new Cat();
+        Cat Cat = new Cat("Scottish Fold", 9);
+        
+        System.out.println("Cuteness: "+newcat.getCuteness());
+        System.out.println("Cat Type: "+Cat.getCatType()+" "+"Cuteness: "+Cat.getCuteness());
+    }
+}

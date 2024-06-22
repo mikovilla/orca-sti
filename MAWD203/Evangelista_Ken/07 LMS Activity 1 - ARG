@@ -1,0 +1,23 @@
+public class Cat {
+    private String catType;
+    private int cutenessLvl;
+
+    public Cat() {
+        this.catType = "Unknown";
+        this.cutenessLvl = 3;
+    }
+
+    public Cat(String type, int lvl) {
+        this.catType = type;
+        this.cutenessLvl = lvl;
+    }
+
+    public int getCuteness() {
+        return this.cutenessLvl;
+    }
+
+    public static void main(String[] args) {
+        Cat myCat = new Cat("British Shorthair", 10);
+        System.out.println("My cat's cuteness level is " + myCat.getCuteness());
+    }
+}

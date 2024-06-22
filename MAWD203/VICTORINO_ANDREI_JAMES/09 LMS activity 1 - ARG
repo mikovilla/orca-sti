@@ -1,0 +1,48 @@
+public class Main {
+    public static void main(String[] args) {
+        Party party = new Party();
+        party.setNumGuests(5);
+        System.out.println("Number of guests: " + party.getNumGuests());
+        party.showInvitation();
+
+        DinnerParty dinnerParty = new DinnerParty();
+        dinnerParty.setNumGuests(10);
+        dinnerParty.setFoodChoice(1);
+        System.out.println("Number of guests: " + dinnerParty.getNumGuests());
+        System.out.println("Food choice: " + dinnerParty.getFoodChoice());
+        dinnerParty.showInvitation();
+    }
+}
+
+class Party {
+    private int numGuests;
+
+    public int getNumGuests() {
+        return numGuests;
+    }
+
+    public void setNumGuests(int num) {
+        numGuests = num;
+    }
+
+    public void showInvitation() {
+        System.out.println("Please come to my party!");
+    }
+}
+
+class DinnerParty extends Party {
+    private int foodChoice;
+
+    public int getFoodChoice() {
+        return foodChoice;
+    }
+
+    public void setFoodChoice(int choice) {
+        foodChoice = choice;
+    }
+
+    @Override
+    public void showInvitation() {
+        System.out.println("Please come to my dinner party!");
+    }
+}
