@@ -1,0 +1,28 @@
+public class Main {
+    public static class Cat {
+        private String breed;
+        private int cutenessLevel;
+
+        public Cat() {
+            this.breed = "Unknown";
+            this.cutenessLevel = 3;
+        }
+
+        public Cat(String catBreed, int level) {
+            this.breed = catBreed;
+            this.cutenessLevel = level;
+        }
+
+        public int getCutenessLevel() {
+            return this.cutenessLevel;
+        }
+
+        public static void main(String[] args) {
+            Cat cat1 = new Cat();
+            Cat cat2 = new Cat("Siamese", 8);
+
+            System.out.println("Cat 1 breed: " + cat1.breed + ", Cuteness level: " + cat1.getCutenessLevel());
+            System.out.println("Cat 2 breed: " + cat2.breed + ", Cuteness level: " + cat2.getCutenessLevel());
+        }
+    }
+}
