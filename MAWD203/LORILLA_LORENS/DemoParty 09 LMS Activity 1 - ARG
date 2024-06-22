@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class DemoParty {
+    public static void main(String args[]) {
+    Scanner scanner = new Scanner(System.in);
+    
+    DinnerParty dinnerParty = new DinnerParty();
+    System.out.println("Enter number of guests for dinner party: ");
+    dinnerParty.setNumGuests(scanner.nextInt());
+    System.out.println("Enter the menu option (1 for chicken or 2 for beef)");
+    dinnerParty.setFoodChoice(scanner.nextInt());
+    
+    System.out.println("The dinner party has " +dinnerParty.getNumGuests());
+    System.out.println("Menu option " +dinnerParty.getFoodChoice() 
+    + " will be served");
+    
+    scanner.close();
+      
+      
+      
+    }
+}

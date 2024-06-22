@@ -1,0 +1,12 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=LAPTOP-4PO7EU24;Initial Catalog=LMS004-YJSC;Integrated Security=True;Trust Server Certificate=True"
+  }
+}

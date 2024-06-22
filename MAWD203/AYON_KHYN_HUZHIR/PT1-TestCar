@@ -1,0 +1,31 @@
+//Khyn's Cars
+//1st file
+
+public class TestCar {
+    public static void main(String[] args) {
+        
+        System.out.println("≈≈≈≈≈≈≈≈≈≈My Cars Info≈≈≈≈≈≈≈≈≈≈");
+        //initial values
+        System.out.println();
+        
+        //getter and printer
+        System.out.println("Manufacturer: " + Car.MAKE);
+        System.out.println("Number of cars manufactured: " + Car.numCars);
+ 
+        //Car Model ^~^
+        Car car1 = new Car("Camry");
+        Car car2 = new Car("Veloz");
+        
+        System.out.println("~~~~~~~~~~~~~~~Camry~~~~~~~~~~~~~~~");
+        System.out.println(car1);
+        
+        System.out.println("Car manufactured");
+        System.out.println("~~~~~~~~~~~~~~~Veloz~~~~~~~~~~~~~~~");
+        System.out.println(car2);
+
+        System.out.println("===================================");
+        System.out.println("Total number of cars manufactured: " + Car.numCars);
+    }
+}  
+
+ 

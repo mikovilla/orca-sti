@@ -1,0 +1,54 @@
+class Party {
+    private int numGuests;
+
+    public Party(int numGuests) {
+        this.numGuests = numGuests;
+    }
+
+    public int getNumGuests() {
+        return numGuests;
+    }
+
+    public void setNumGuests(int num) {
+        numGuests = num;
+    }
+
+    public void showInvitation() {
+        System.out.println("Please come to my party!");
+    }
+}
+
+class DinnerParty extends Party {
+    private int foodChoice;
+
+    public DinnerParty(int numGuests, int foodChoice) {
+        super(numGuests);
+        this.foodChoice = foodChoice;
+    }
+
+    public int getFoodChoice() {
+        return foodChoice;
+    }
+
+    public void setFoodChoice(int choice) {
+        foodChoice = choice;
+    }
+
+    @Override
+    public void showInvitation() {
+        System.out.println("Please come to my dinner party!");
+    }
+}
+
+public class DemoParty {
+    public static void main(String[] args) {
+        Party party = new Party(30);
+        party.showInvitation();
+        System.out.println("Number of guests: " + party.getNumGuests());
+
+        DinnerParty dinnerParty = new DinnerParty(20, 1);
+        dinnerParty.showInvitation();
+        System.out.println("Number of guests: " + dinnerParty.getNumGuests());
+        System.out.println("Food choice: " + dinnerParty.getFoodChoice());
+    }
+}
