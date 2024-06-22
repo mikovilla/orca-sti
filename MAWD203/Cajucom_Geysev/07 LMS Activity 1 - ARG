@@ -1,0 +1,21 @@
+public class Cat {
+    private String catType;
+    private int cutenessLvl;
+
+    // Public constructor without parameters
+    public Cat() {
+        this.catType = "Unknown";
+        this.cutenessLvl = 3;
+    }
+
+    // Public constructor with two parameters
+    public Cat(String type, int lvl) {
+        this.catType = type;
+        this.cutenessLvl = lvl;
+    }
+
+    // Method to get the cat's cuteness level
+    public int getCuteness() {
+        return this.cutenessLvl;
+    }
+}
