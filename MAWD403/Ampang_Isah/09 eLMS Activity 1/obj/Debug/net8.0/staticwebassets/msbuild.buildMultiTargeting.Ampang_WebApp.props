@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Ampang_WebApp.props" />
+</Project>
