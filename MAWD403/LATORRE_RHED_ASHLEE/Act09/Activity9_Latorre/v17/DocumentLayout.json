@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cholo\\source\\repos\\Activity9_Latorre\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2426EAC6-3C82-4EEC-B173-F41AE81350E5}|Activity9_Latorre\\Activity9_Latorre.csproj|c:\\users\\cholo\\source\\repos\\activity9_latorre\\activity9_latorre\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2426EAC6-3C82-4EEC-B173-F41AE81350E5}|Activity9_Latorre\\Activity9_Latorre.csproj|solutionrelative:activity9_latorre\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2426EAC6-3C82-4EEC-B173-F41AE81350E5}|Activity9_Latorre\\Activity9_Latorre.csproj|c:\\users\\cholo\\source\\repos\\activity9_latorre\\activity9_latorre\\views\\mymvc\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2426EAC6-3C82-4EEC-B173-F41AE81350E5}|Activity9_Latorre\\Activity9_Latorre.csproj|solutionrelative:activity9_latorre\\views\\mymvc\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2426EAC6-3C82-4EEC-B173-F41AE81350E5}|Activity9_Latorre\\Activity9_Latorre.csproj|c:\\users\\cholo\\source\\repos\\activity9_latorre\\activity9_latorre\\controllers\\mymvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2426EAC6-3C82-4EEC-B173-F41AE81350E5}|Activity9_Latorre\\Activity9_Latorre.csproj|solutionrelative:activity9_latorre\\controllers\\mymvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\cholo\\source\\repos\\Activity9_Latorre\\Activity9_Latorre\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Activity9_Latorre\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\cholo\\source\\repos\\Activity9_Latorre\\Activity9_Latorre\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Activity9_Latorre\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T11:23:24.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MYMVCController.cs",
+              "DocumentMoniker": "C:\\Users\\cholo\\source\\repos\\Activity9_Latorre\\Activity9_Latorre\\Controllers\\MYMVCController.cs",
+              "RelativeDocumentMoniker": "Activity9_Latorre\\Controllers\\MYMVCController.cs",
+              "ToolTip": "C:\\Users\\cholo\\source\\repos\\Activity9_Latorre\\Activity9_Latorre\\Controllers\\MYMVCController.cs",
+              "RelativeToolTip": "Activity9_Latorre\\Controllers\\MYMVCController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T11:20:33.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Welcome.cshtml",
+              "DocumentMoniker": "C:\\Users\\cholo\\source\\repos\\Activity9_Latorre\\Activity9_Latorre\\Views\\MyMVC\\Welcome.cshtml",
+              "RelativeDocumentMoniker": "Activity9_Latorre\\Views\\MyMVC\\Welcome.cshtml",
+              "ToolTip": "C:\\Users\\cholo\\source\\repos\\Activity9_Latorre\\Activity9_Latorre\\Views\\MyMVC\\Welcome.cshtml",
+              "RelativeToolTip": "Activity9_Latorre\\Views\\MyMVC\\Welcome.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T11:19:58.885Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
