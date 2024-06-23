@@ -1,0 +1,37 @@
+@model List<WebApplication10.Models.TableViewModel>
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+<h3>@ViewData["Title"]</h3>
+</hr>
+<form>
+    <table class="table table-responsive table-hover">
+        <thead>
+            <tr class="table-active">
+                <th>Product ID</th>
+                <th>ProductName<th>
+                <th>Brand</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var table in Model)
+                {
+                    <tr>
+                        <td>@table.ProductID</td>
+                        <td>@table.ProductName</td>
+                        <td>@table.Brand</td>
+                        <td>@table.Price</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                
+            }
+        </tbody>
+    </table>
+</form>
