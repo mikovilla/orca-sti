@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\09 LMS Activity 1 - (ILA).props" />
-</Project>
