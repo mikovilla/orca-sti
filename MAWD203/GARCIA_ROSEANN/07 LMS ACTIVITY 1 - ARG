@@ -1,0 +1,25 @@
+public class Cat {
+    public String catType;
+    public int cutenessLvl;
+    
+    public Cat() {
+        this.catType = "Unknown";
+        this.cutenessLvl = 3;
+    }
+    public Cat(String type, int lvl) {
+        String catType = type;
+        int cutenesslvl = level;
+    }
+    public String getType() {
+        return catType;
+    }
+    
+    public int getCuteness() {
+        return cutenessLvl;
+    }
+    
+    public static void main (String[]args) {
+        Cat info = Cat("Ragdoll", 8);
+        System.out.println("The type of a cat is " + info.getcatType + "with a cuteness level of " + info.getCutenesslvl);
+    }
+}
